@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="Introduce el nombre de usuario: " />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="78dp" />
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="586dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Nombre de usuario"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="74dp" />
+
+    <Button
+        android:id="@+id/btVentanaJugar"
+        android:layout_width="637dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="ventanaJugar"
+        android:text="JUGAR" />
+</LinearLayout>
